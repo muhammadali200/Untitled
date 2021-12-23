@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=Montserrat&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Jost';
+}
+
+.header{
+    min-height: 100vh;
+    background: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    margin-top: 200px;
+}
+
+.main__title{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 46px;
+    color: black;
+}
+.main__text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #ABABAB;
+    margin-top: 23px;
+}
+
+.item__title {
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+.item__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B0B0B0;
+}
+
+.block2 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+footer {
+    background-image: url(../bgfooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 184px;
+}
+
+.footer__item-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+}
+
+.footer__item-text {
+    font-weight: 400;
+    font-style: 18px;
+    color: white;
+}
